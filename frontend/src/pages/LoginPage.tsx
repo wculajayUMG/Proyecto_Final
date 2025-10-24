@@ -41,13 +41,18 @@ const LoginPage: React.FC = () => {
     return (
         <div className="login-page">
             <div className="header-band">
-                <span className="header-text left">Colegio</span>
-                <img 
-                    src="/logo-cig.png" 
-                    alt="Logo CIG" 
-                    className="header-logo"
-                />
-                <span className="header-text right">Ingenieros</span>
+                <span className="header-text left d-none d-sm-inline">Colegio</span>
+                <div className="header-center">
+                    <img 
+                        src="/logo-cig.png" 
+                        alt="Logo CIG" 
+                        className="header-logo"
+                    />
+                    <div className="header-mobile-text d-sm-none">
+                        <span>Colegio de Ingenieros</span>
+                    </div>
+                </div>
+                <span className="header-text right d-none d-sm-inline">Ingenieros</span>
             </div>
             <Container>
                 <div className="form-container">

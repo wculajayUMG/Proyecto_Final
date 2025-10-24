@@ -4,6 +4,13 @@
 El proyecto tiene como objetivo diseñar y desarrollar una plataforma web completa
 para la gestión y realización de votaciones destinadas a la elección de la Junta Directiva del Colegio de Ingenieros de Guatemala.
 
+## URL DEL DESPLIEGUE
+1. Url del deploy del fronted en Render (aplicacion funcionando con Frontend y Backend)
+- https://sistema-votacion-frontend.onrender.com
+
+2. Url del deploy del Backend en Render usando Base de datos de MongoDB Atlas
+- https://sistema-votacion-backend.onrender.com
+
 ## Credendicales
 
 - Keyli Andrea Tobar Morales.           Carnet: 9490-22-4796
